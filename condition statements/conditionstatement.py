@@ -76,6 +76,23 @@
 #     print("Incorrect username.")
 
 
-
-"18"==18
+#"18"==18
 #"18">=18
+
+# number_enter_byuser=int(input("enter any number from 1 2 3 4 5:"))
+# a=input("enter number1:")
+# b=input("enter number2:")
+# a=int(a)
+# b=int(b)
+# if number_enter_byuser==1:
+#     print(a+b)
+# elif number_enter_byuser==2:
+#     print(a-b)
+# elif number_enter_byuser==3:
+#     print(a*b)
+# elif number_enter_byuser==4:
+#     print(a/b)
+# elif number_enter_byuser==5:
+#     print(a//b)
+# else:
+#     print("there is an error!")
