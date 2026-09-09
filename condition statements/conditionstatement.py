@@ -96,3 +96,48 @@
 #     print(a//b)
 # else:
 #     print("there is an error!")
+
+
+#time complexciy or code optimization
+# number_enter_byuser=int(input("enter any number from 1 2 3 4 5:"))
+# if number_enter_byuser==1 or number_enter_byuser==2 or number_enter_byuser==3 or number_enter_byuser==4 or number_enter_byuser==5:
+#    a=input("enter number1:")
+#    b=input("enter number2:")
+#    a=int(a)
+#    b=int(b)
+#    if number_enter_byuser==1:
+#     print(a+b)
+#    elif number_enter_byuser==2:
+#     print(a-b)
+#    elif number_enter_byuser==3:
+#     print(a*b)
+#    elif number_enter_byuser==4:
+#     print(a/b)
+#    elif number_enter_byuser==5:
+#     print(a//b)
+# else:
+#     print("there is an error!")
+
+
+# has_id=input("enter if he has id (yes/no):").strip().lower()
+# if has_id=="no":
+#     has_id=True
+# elif has_id=="yes":
+#     has_id=False
+# else:
+#     print("enter valied value!!")
+
+# if has_id:
+#     print("welcome!!")
+# else:
+#     print("bring your id")
+
+yes=True
+no=False
+has_id=input("enter if he has id (yes/no):").strip().lower()
+if has_id=="no":
+    print("welcome!!")
+elif has_id=="yes":
+    print("bring your id")
+else:
+    print("enter valied value!!")
