@@ -164,3 +164,96 @@
 
 
 
+# 21
+# text = input("Enter a string: ")
+
+# for char in text:
+#     print(char)
+
+
+# 22
+# text = input("Enter a string: ")
+
+# for char in text:
+#     print(char, end="")
+
+
+
+
+# 23
+# text = input("Enter a string: ")
+
+# count = 0
+
+# for char in text:
+#     count = count + 1
+
+# print("Number of characters:", count)
+
+
+
+
+
+# 24
+# text = input("Enter a string: ")
+
+# count = 0
+
+# for char in text:
+#     if char == "a":
+#         count = count + 1
+
+# print("Number of a:", count)
+
+
+
+
+
+
+# 25
+# text = input("Enter a string: ")
+
+# count = 0
+
+# for char in text:
+#     if char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+#         count = count + 1
+
+# print("Uppercase letters:", count)
+
+
+
+
+#26
+# for i in range(3):
+#     for j in range(4):
+#         print("*", end="")
+#     print()
+
+
+#27
+# for i in range(4):
+#     for j in range(5):
+#         print("*", end="")
+#     print()
+
+
+#28
+# for i in range(1, 6):
+#     for j in range(i):
+#         print("*", end="")
+#     print()
+
+
+#29
+# for i in range(1, 6):
+#     for j in range(1, i + 1):
+#         print(j, end="")
+#     print()
+
+
+#30
+# for i in range(1, 6):
+#     for j in range(1, 11):
+#         print(i * j, end=" ")
+#     print()

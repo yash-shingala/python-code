@@ -1,2 +1,9 @@
-for i in range(1,6):
-#     print("Hello")
+text = input("Enter a string: ")
+
+count = 0
+
+for char in text:
+    if char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        count = count + 1
+
+print("Uppercase letters:", count)

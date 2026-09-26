@@ -225,11 +225,15 @@
 #     price_of_aunit1=5
 #     print(unit*price_of_aunit1)
 # elif unit>100 and unit<=200:
-#     price_of_aunit2=7
-#     print(unit*price_of_aunit2)
+#     first_hundred=100*5
+#     remaining_unit=(unit-100)*7
+#     print(first_hundred+remaining_unit)
 # elif unit>200:
-#     price_of_aunit3=10
-#     print(unit*price_of_aunit3)
+#     first_hundred=100*5
+#     next_hundred=100*7
+#     remaining_unit=(unit-200)*10
+#     print(first_hundred+next_hundred+remaining_unit)
+
 
 
 #17
