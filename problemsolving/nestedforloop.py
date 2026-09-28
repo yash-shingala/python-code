@@ -95,6 +95,13 @@
 #     print()
 
 
+# for i in range(5):
+#     num=65
+#     for j in range(5):
+#         print(chr(num + j), end=" ")
+#     num+=5
+#     print()
+
 
 # # 13. Odd Number Pattern
 
