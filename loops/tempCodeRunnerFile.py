@@ -1,9 +1,6 @@
-text = input("Enter a string: ")
+number=int(input("enter a number:"))
 
-count = 0
-
-for char in text:
-    if char in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
-        count = count + 1
-
-print("Uppercase letters:", count)
+while number>0:
+    digit=number%10
+    print(digit,end="")
+    number=number//10
