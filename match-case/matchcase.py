@@ -168,9 +168,44 @@
 
 
 
+# str=input("enter a word:").lower()
+# flag=True
+# for i in str:
+#     if i=="o":
+#         print("found")
+#         flag=False
+#         break
+# if flag:
+#     print("not found")
 
 
 
+# for i in range(1,11):
+#     if i==6:
+#         break
+#     print(i)
+
+
+# numbers = [10, 20, 30, 40, 50]
+
+# for i in range(0,len(numbers)):
+#     if numbers[i]==30:
+#         print("found")
+#         break
 
 
 
+# num=int(input("enter a number:"))
+
+# while num>=0 or num<0:
+#     if num==0:
+#         break
+#     print(num)
+#     num=int(input("enter a number:"))
+        
+
+
+# for i in range(1,101):
+#     if i%17==0:
+#         break
+#     print(i)

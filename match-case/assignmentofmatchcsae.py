@@ -1,8 +1,3 @@
-
-# #  Q1 TO Q40
-
-
-
 # # Q1.
 # choice = int(input("Enter your choice: "))
 
@@ -981,3 +976,9 @@
 
 #     case _:
 #         print("Invalid Role")
+
+
+
+
+
+

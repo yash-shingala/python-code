@@ -299,7 +299,7 @@
 
 
 
-# # 21. TRIANGLE TYPE
+# # 21. 
 
 # a = float(input("Enter side 1: "))
 # b = float(input("Enter side 2: "))
@@ -317,7 +317,7 @@
 
 
 
-# # 22. ATM WITHDRAWAL
+# # 22. 
 
 # balance = float(input("\nEnter account balance: "))
 # withdrawal = float(input("Enter withdrawal amount: "))
@@ -337,7 +337,7 @@
 
 
 
-# # 23. LOGIN SYSTEM
+# # 23.
 
 
 # username = input("\nEnter username: ")
@@ -352,7 +352,7 @@
 
 
 
-# # 24. DISCOUNT CALCULATOR
+# # 24. 
 
 
 # purchase = float(input("\nEnter purchase amount: ₹"))
@@ -378,7 +378,7 @@
 
 
 
-# # 25. STUDENT RESULT SYSTEM
+# # 25. 
 
 
 # marks1 = float(input("\nEnter marks for Subject 1: "))
@@ -407,7 +407,7 @@
 
 
 
-# # 26. DATE VALIDATOR
+# # 26.
 
 
 # day = int(input("\nEnter day: "))
