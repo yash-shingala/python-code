@@ -42,7 +42,7 @@
 
 # check_type_number()
 
-
+##########
 
 # def bank(amount):
 #     balance = 10000
@@ -73,6 +73,25 @@
 # a=int(input("enter a amount:"))
 # bank(a)
 
+############
 
+
+# def counter(count):
+#     count+=1
+#     if(count==7):
+#         return count
+#     return counter(count)
+# print(counter(1))
+
+
+# def add(a):
+#     return a
+# print(add((10,20,30)))
+
+
+# def adds(a,b,c):
+#     return a+b+c
+# number={'p':20,'q':30,'z':44}
+# print(adds(**number))
 
 

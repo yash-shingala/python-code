@@ -56,6 +56,7 @@
 #         print(j, end="")
 #     print()
 
+
 # Q9. 
 # rows = int(input("Rows: "))
 # cols = int(input("Columns: "))
@@ -64,12 +65,17 @@
 #         print("*", end="")
 #     print()
 
+
+
 # Q10. 
 # n = int(input("Enter N: "))
 # for i in range(n):
 #     for j in range(n):
 #         print(j % 2, end="")
 #     print()
+\
+
+
 
 # Q11. 
 # rows = int(input("Rows: "))
@@ -1300,6 +1306,7 @@
 #         if grid[i][j] == target:
 #             print("Found at row", i, "column", j)
 
+
 # Q116. Password Character Analyzer
 # password = input("Password: ")
 # upper = lower = digits = special = 0
@@ -1315,6 +1322,7 @@
 # print("Uppercase =", upper, "Lowercase =", lower)
 # print("Digits =", digits, "Special =", special)
 
+
 # Q117. Mini Inventory System
 # products = int(input("Products: "))
 # stores = int(input("Stores: "))
@@ -1328,6 +1336,7 @@
 #     print("Product", i + 1, "total =", product_total)
 # for j in range(stores):
 #     print("Store", j + 1, "total =", store_totals[j])
+
 
 # Q118. Cricket Score Matrix
 # players = int(input("Players: "))
@@ -1343,6 +1352,8 @@
 #         highest = total
 #         best_player = i + 1
 # print("Highest scorer: Player", best_player, highest)
+
+
 
 # Q119. Electricity Usage Analyzer
 # houses = int(input("Houses: "))
@@ -1362,6 +1373,10 @@
 #         highest_usage = month_totals[j]
 #         highest_month = j + 1
 # print("Highest total usage month =", highest_month, highest_usage)
+
+
+
+
 
 # Q120. Final Multi-Level Data Analyzer (student totals, averages, subject totals, pass/fail)
 # n = int(input("Students: "))
