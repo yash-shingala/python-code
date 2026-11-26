@@ -92,3 +92,44 @@ print("Modified List:", result)
 # Output:
 # Original List: [10, 20, 30]
 # Modified List: [100, 20, 30, 40]
+
+
+
+#11
+def counter():
+    count = 0
+    def increament():
+        nonlocal count
+        count = count + 1
+        return count
+    return increament
+my_counter = counter()
+print(my_counter())
+print(my_counter())
+print(my_counter())
+
+
+
+
+#12
+x = 1
+def outer():
+    x = 2
+    def inner():
+        x = 3
+        print(x)
+    inner()
+    print(x)
+outer()
+print(x)
+
+
+
+#14
+def outerfunction():
+    name = "yash"
+    def innerfunction():
+        print(name)
+    return innerfunction
+y_function = outerfunction()
+y_function()
